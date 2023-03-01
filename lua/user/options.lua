@@ -2,9 +2,9 @@ vim.opt.clipboard = "unnamedplus"               -- allows neovim to access the s
 vim.opt.number = true                           -- set numbered lines
 vim.opt.relativenumber = true                  	-- set relative numbered lines
 
-vim.opt.tabstop = 4                             -- insert 2 spaces for a tab
-vim.opt.softtabstop = 4
-vim.opt.shiftwidth = 4
+vim.opt.tabstop = 2                             -- insert 2 spaces for a tab
+vim.opt.softtabstop = 2
+vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 
 vim.opt.wrap = false                            -- display lines as one long line
@@ -25,7 +25,6 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
-vim.opt.colorcolumn = "80"
 vim.opt.cursorline = true
 
 vim.g.mapleader = " "
